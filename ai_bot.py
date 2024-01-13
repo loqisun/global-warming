@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='key')
 
 def gpt(text):
     print('Подождите немного, Ваш запрос обробатывается...')
